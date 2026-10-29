@@ -1,0 +1,4 @@
+# Inserts the safe updater into the profile bundle stack.
+- insert:
+    - id: dsh-plugin-update
+      name: dsh-plugin-update
