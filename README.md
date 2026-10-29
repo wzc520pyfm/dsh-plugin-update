@@ -9,7 +9,7 @@ DeepSeek Harness 里，第三方插件要更新，官方页面走的是先卸载
 ## 安装
 
 ```bash
-dsh plugin --profile web add github:wzc520pyfm/dsh-plugin-update
+dsh plugin --profile web add @wzc520pyfm/dsh-plugin-update
 ```
 
 重启 `dsh web`，打开 **设置 → 插件更新**。同一个面板也在这个插件自己的详情页上。
@@ -47,4 +47,4 @@ dsh plugin --profile web add link:/绝对路径/dsh-plugin-update
 npm test
 ```
 
-逻辑在 `lib/`，不需要构建。浏览器半是 `lib/client.js`，用 DSH 的 `__ModuleLoader__` 注册，模块 id 与包名都是 `dsh-plugin-update`。
+逻辑在 `lib/`，不需要构建。浏览器半是 `lib/client.js`，用 DSH 的 `__ModuleLoader__` 注册，模块 id 与包名都是 `@wzc520pyfm/dsh-plugin-update`。
