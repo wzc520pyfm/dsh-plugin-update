@@ -1,6 +1,6 @@
 {
   "name": "@wzc520pyfm/dsh-plugin-update",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Safe one-click updates for plugins already installed in DeepSeek Harness. Stages in a temp directory, verifies, then swaps. A failed install restores the previous package.json, lockfile, and cordis.patch.yml.",
   "type": "module",
   "engines": {
