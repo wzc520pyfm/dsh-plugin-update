@@ -1,4 +1,4 @@
 # Inserts the safe updater into the profile bundle stack.
 - insert:
-    - id: dsh-plugin-update
-      name: '@wzc520pyfm/dsh-plugin-update'
+    - id: dsh-plugin-safe-update
+      name: dsh-plugin-safe-update
